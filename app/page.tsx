@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-[#FFFC00] h-screen">
       <Navbar/>
     </div>
   );
