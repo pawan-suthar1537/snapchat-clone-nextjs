@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="flex items-center gap-5 rounded-full ">
         <Image src={logo} alt="logo" width={50} height={50} />
         <Input
-          className="rounded-full border border-white"
+          className="rounded-full border border-white  outline-none"
           type="text"
           placeholder="Search"
         />
