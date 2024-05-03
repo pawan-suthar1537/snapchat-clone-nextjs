@@ -3,6 +3,7 @@ import image from "@/public/imagee.png";
 import Image from "next/image";
 import { Button } from "./ui/button";
 import { ImLaptop } from "react-icons/im";
+import Link from "next/link";
 
 
 
@@ -19,8 +20,12 @@ const Header = () => {
           <br />
           all from your computer.
         </h1>
-        <Button className="gap-2 rounded-full"><ImLaptop />
-Login to Chat</Button>
+        <Link href="/login">
+          <Button className="gap-2 rounded-full">
+            <ImLaptop />
+            Login to Chat
+          </Button>
+        </Link>
       </div>
       <div>
         <Image src={image} alt="logo" width={650} height={650} />
